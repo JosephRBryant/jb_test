@@ -1,0 +1,19 @@
+{
+  "name": "page_demo",
+  "version": "1.0.0",
+  "description": "Repository to test node.js code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/One-n-Done-Web-Solutions/Page_Demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/One-n-Done-Web-Solutions/Page_Demo/issues"
+  },
+  "homepage": "https://github.com/One-n-Done-Web-Solutions/Page_Demo#readme"
+}
