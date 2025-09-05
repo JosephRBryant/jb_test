@@ -34,7 +34,8 @@
   font-weight: 400;
 }
 
-.links a button {
+.links a button,
+.footerMain button {
   border-radius: 5px;
   padding: 0.5rem 1rem;
   font-size: 16px;
@@ -44,8 +45,117 @@
   height: 42px;
   border: none;
   cursor: pointer;
+  color: #ffffff;
 }
 
 .active {
   border-bottom: 2px solid #00aa55;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #1B1F1C;
+  height: 280px;
+
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 1078px;
+  margin-bottom: 16px;
+}
+
+.footerLeft,
+.footerRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 55px;
+  width: 250px;
+}
+
+.footerLinks {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerLinks a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-style: bold;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+.footerLeft p,
+.footerRight p,
+.footerRight a,
+.footerMain a {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  margin: 0;
+}
+
+.footerMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 9px 0 20px 0;
+}
+
+.footerMain a {
+  margin-top: 15px;
+}
+
+.footerLogo {
+  display: flex;
+  justify-content: center;
+}
+
+.footerLogo img {
+  width: 139px;
+  margin-bottom: 22px;
+}
+
+.footerMain a {
+  margin: 0 0 15px 0;
+}
+
+.footerSocials a i {
+  margin: 12px 8px 0 8px;
+}
+
+.footerRight {
+  text-align: right;
+  font-family: "Roboto";
+}
+
+.footerContact {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerTitle h2 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #ffffff;
+  margin: 0 0 3px 0;
+}
+
+.footerContact h3 {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.footerContact a {
+  text-decoration: none;
 }

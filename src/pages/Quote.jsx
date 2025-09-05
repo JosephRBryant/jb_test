@@ -23,59 +23,10 @@ export default function Quote() {
   }
 
   return (
-    <main className="page quote">
-      <header>
-        <h1>Request a Quote</h1>
-        <p>Tell us a little about your project.</p>
-      </header>
-
+    <main className="page quotes" style={{ display: "flex", justifyContent: "center" }}>
+      <img src="../images/placeholder.png" alt="" />
       <form onSubmit={handleSubmit} className="quote-form">
-        <label>
-          Name
-          <input
-            name="name"
-            value={form.name}
-            onChange={handleChange}
-            placeholder="Your name"
-            required
-          />
-        </label>
 
-        <label>
-          Email
-          <input
-            type="email"
-            name="email"
-            value={form.email}
-            onChange={handleChange}
-            placeholder="you@example.com"
-            required
-          />
-        </label>
-
-        <label>
-          Budget (optional)
-          <input
-            name="budget"
-            value={form.budget}
-            onChange={handleChange}
-            placeholder="$2k–$5k"
-          />
-        </label>
-
-        <label>
-          Project Details
-          <textarea
-            name="details"
-            value={form.details}
-            onChange={handleChange}
-            placeholder="What are you looking to build?"
-            rows={6}
-            required
-          />
-        </label>
-
-        <button type="submit">Send Request</button>
       </form>
     </main>
   );

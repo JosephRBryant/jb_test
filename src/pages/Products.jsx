@@ -7,22 +7,8 @@ export default function Products() {
   ];
 
   return (
-    <main className="page products">
-      <header>
-        <h1>Products</h1>
-        <p>Explore what we offer.</p>
-      </header>
-
-      <section className="grid">
-        {items.map((it) => (
-          <article key={it.id} className="card">
-            <div className="thumb" aria-hidden="true" />
-            <h3>{it.name}</h3>
-            <p>{it.blurb}</p>
-            <button>Learn More</button>
-          </article>
-        ))}
-      </section>
+    <main className="page products" style={{ display: "flex", justifyContent: "center" }}>
+      <img src="../images/placeholder.png" alt="" />
     </main>
   );
 }

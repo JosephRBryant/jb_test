@@ -86,7 +86,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 50px;
-  margin-bottom: 127px;
+  margin-bottom: 50px;
 }
 
 .imageGrid img {
@@ -125,6 +125,7 @@
   align-items: center;
   width: 1078px;
   color: #ffffff;
+  margin-top: 77px;
 }
 
 .testImage {
