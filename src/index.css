@@ -1,0 +1,29 @@
+/* Reset default body spacing */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* header/nav takes natural height */
+header {
+  flex: 0 0 auto;
+}
+
+/* make main fill the middle */
+main {
+  flex: 1 1 auto;   /* or simply: flex: 1; */
+  display: block;   /* ensures it’s a block-level flex item */
+}
+
+/* footer takes natural height (alternative: margin-top:auto) */
+footer {
+  flex: 0 0 auto;
+  /* or: margin-top: auto;  (works too) */
+}

@@ -1,0 +1,51 @@
+/* App.module.css */
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 80px;
+  position: relative;
+  background: #000000;
+}
+
+.logo {
+  position: absolute;
+  left: 87px;
+  top: 8px;
+}
+
+.logo img {
+  height: 109px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 39px;
+  margin-right: 204px;
+}
+
+.links a,
+.links a button {
+  text-decoration: none;
+  font-family: "Roboto";
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.links a button {
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #c9533a;
+  width: 200px;
+  height: 42px;
+  border: none;
+  cursor: pointer;
+}
+
+.active {
+  border-bottom: 2px solid #00aa55;
+}
