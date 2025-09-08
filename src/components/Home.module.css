@@ -19,13 +19,14 @@
   background-color: red;
 }
 
-.hero h1 {
+h1 {
   font-weight: 700;
   font-size: 48px;
   font-family: "Gothic A1";
   color: #ffffff;
   text-align: center;
   margin: 5px;
+  letter-spacing: 3px;
 }
 
 .hero p {
@@ -60,8 +61,7 @@
   color: #ffffff;
 }
 
-.servicesPreview h2,
-.valueProp h2 {
+h2 {
   font-family: "Gothic A1";
   font-weight: 700;
   font-size: 24px;

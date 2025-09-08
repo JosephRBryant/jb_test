@@ -1,0 +1,143 @@
+/* Services.module.css */
+.services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services h2,
+.services h3 {
+  margin: 0;
+}
+
+.services p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.header {
+  max-width: 1430px;
+  margin: 100px 0 50px 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1320px;
+}
+
+.main img {
+  width: 250px;
+  height: 250px;
+}
+
+.servicesCardA,
+.servicesCardB {
+  display: flex;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.servicesImgGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 50px;
+}
+
+.servicesTextA {
+  color: #ffffff;
+  margin-left: 150px;
+}
+
+.servicesTextB {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color: #ffffff;
+  margin-right: 150px;
+  text-align: right;
+}
+
+.servicesTextA button,
+.servicesTextB button {
+  width: 175px;
+  height: 62px;
+  background-color: #95C93A;
+  border: none;
+  border-radius: 5px;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.servicesTextA ul,
+.servicesTextB ul {
+  max-width: 468px;
+  padding: 0;
+  margin: 0;
+}
+
+.servicesTextA li,
+.servicesTextB li {
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 16px;
+  list-style: none;
+}
+
+.servicesTextA h3,
+.servicesTextB h3 {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400                 ;
+  margin-bottom: 25px;
+}
+
+.servicesTextA button,
+.servicesTextB button {
+  margin-top: 25px;
+}
+
+.execProcess {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 596px;
+  margin-top: 100px;
+  background: linear-gradient(96.44deg, #C9533A 7.99%, #95C93A 50.17%, #3A66C9 93.71%);
+}
+
+.execProcessContainer {
+  display: flex;
+  flex-direction: column;
+  width: 508px;
+  /* height: 100%; */
+  min-height: 0;
+  text-align: center;
+  overflow: hidden;
+}
+
+.execProcessContainer h2 {
+  font-family: "Gothic A1";
+  font-weight: 700;
+  font-style: bold;
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+
+.execProcessContainer h3 {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.execProcessContainer p {
+  color: black;
+  margin: 0;
+}
